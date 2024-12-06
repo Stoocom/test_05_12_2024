@@ -1,0 +1,47 @@
+
+
+@font-face {
+  font-family: 'Inter-Regular';
+  src: url('./assets/fonts/Inter-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter-Bold';
+  src: url('./assets/fonts/Inter-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  font-family: "Inter-Regular", sans-serif; 
+}
+
+.wrap {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.margin_55 {
+  margin-top: 55px;
+}
+
+.margin_10p {
+  margin-top: 10%;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.text_center {
+  text-align: center;
+}
